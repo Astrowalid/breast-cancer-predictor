@@ -91,3 +91,23 @@ if st.button("Run Prediction", type="primary"):
         
     if confidence:
         st.write(f"**Model Confidence:** {confidence:.2f}%")
+
+# ==========================================
+# 7. PROJECT CONTRIBUTORS
+# ==========================================
+st.markdown("---") # Draws a neat horizontal line to separate the app from the footer
+st.subheader("👨‍💻 Project Contributors")
+st.write("This machine learning application was developed by:")
+
+# Create two equal-sized columns
+col1, col2 = st.columns(2)
+
+with col1:
+    st.info("""
+    **Walid IDBENNACER** | [LinkedIn](https://www.linkedin.com/in/walid-idbennacer-65b42a215/)
+    """)
+    
+with col2:
+    st.info("""
+    **Chamss-Eddine ERRABEH** | [LinkedIn](https://www.linkedin.com/in/chamss-eddine-errabeh-915610272/)
+    """)
